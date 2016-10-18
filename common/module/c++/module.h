@@ -41,6 +41,8 @@ private:
     
 };
 
+#pragma waining(disable:4503)
+
 }
 
 

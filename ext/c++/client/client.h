@@ -64,7 +64,6 @@ public:
         timer->addticktime(tick + 30 * 1000, std::bind(&client::heartbeats, this, std::placeholders::_1));
     }
     
-    boost::signals2::signal<void(std::string)> onConnectServerHandle;
     void on_ack_connect_server(std::string result)
     {
         onConnectServerHandle(result);
@@ -113,6 +112,8 @@ public:
     std::string uuid;
     std::shared_ptr<common::modulemanager> modules;
     std::shared_ptr<service::timerservice> timer;
+    
+    boost::signals2::signal<void(std::string)> onConnectServerHandle;
 
 private:
     std::shared_ptr<service::connectnetworkservice> _conn;

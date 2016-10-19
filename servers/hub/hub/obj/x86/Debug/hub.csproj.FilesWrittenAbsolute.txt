@@ -1,5 +1,0 @@
-/Users/qianqian/Documents/workspace/abelkhan/servers/hub/hub/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/qianqian/Documents/workspace/abelkhan/servers/hub/hub/bin/Debug/hub.exe.mdb
-/Users/qianqian/Documents/workspace/abelkhan/servers/hub/hub/bin/Debug/hub.exe
-/Users/qianqian/Documents/workspace/abelkhan/servers/hub/hub/obj/x86/Debug/hub.exe
-/Users/qianqian/Documents/workspace/abelkhan/servers/hub/hub/obj/x86/Debug/hub.exe.mdb
